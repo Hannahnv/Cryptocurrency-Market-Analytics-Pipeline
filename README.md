@@ -85,25 +85,6 @@ cryptocurrency/
 - Extract detailed information about programming languages used
 - Scrape usage percentage of each language per project
 
-## 📊 Collected Data
-
-### 📈 Market Data (`clean_coins_data.csv`)
-- **100 records**: Top cryptocurrencies by market cap
-- **Fields**: Rank, Name, Symbol, ATH, ATL, Circulating Supply, Market Cap, Dominance %
-
-### 📉 Historical Data (`clean_coins_historical_data.csv`)
-- **33,716 records**: Daily price data
-- **Fields**: Date, Open, High, Low, Close, Volume, Market Cap
-- **Time range**: March 26, 2024 - March 24, 2025
-
-### 💻 GitHub Data (`github_coins_info.csv`)
-- **70 repositories**: Technology development information
-- **Fields**: GitHub link, Commits, Contributors, Forks, Stars count
-
-### 🔧 Programming Languages (`languages_data.csv`)
-- **255 records**: Detailed technology stack
-- **Fields**: Language name, Usage percentage per project
-
 ## 🚀 Installation and Usage
 
 ### Prerequisites
