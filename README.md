@@ -128,7 +128,7 @@ python manage.py createsuperuser
 python manage.py runserver
 ```
 
-### Using Django Interface
+### Using Django Interface & Database Design
 
 1. **Access**: `http://localhost:8000/`
 2. **Import data**:
@@ -139,6 +139,9 @@ python manage.py runserver
   ![image](https://github.com/user-attachments/assets/7c35a11b-353b-44d5-9849-b71ea17cbb35)
 
 3. **Monitor**: View database statistics
+4. **Database Design**
+   
+![image](https://github.com/user-attachments/assets/c2f10132-3e9e-41db-a729-6c1281be8322)
 
 ## 📊 Tableau Dashboards
 Here is a preview of the interactive dashboard:
