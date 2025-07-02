@@ -13,7 +13,7 @@ This project builds a comprehensive system to collect, manage, and analyze data 
 
 ### 🎯 Main Objectives
 
-- Automated data collection from CoinMarketCap and GitHub
+- Automated data collection from CoinMarketCap and Github
 - Build a structured database for information storage and management
 - Create visual interfaces to observe trends and correlations in the crypto market
 
