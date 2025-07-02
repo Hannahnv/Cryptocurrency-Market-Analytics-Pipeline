@@ -155,4 +155,4 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file for
 
 ---
 
-⭐ **Found this project helpful?** Don't forget to give it a star on GitHub and share with the crypto community!
+⭐ **Found this project helpful?** Don't forget to give it a star on Github and share with the crypto community!
