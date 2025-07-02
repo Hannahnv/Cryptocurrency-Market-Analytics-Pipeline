@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-qsjf!m%knlrmf+b!)b#c$#-ctn@518n=^tzm1(m86++4jh3^-&'
+SECRET_KEY = 'your-secret-key-here'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -72,24 +72,12 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'cryptocurrency.wsgi.application'
 
-
-# Database
-# https://docs.djangoproject.com/en/5.2/ref/settings/#databases
-
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
-
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'cryptocurrency_db',
         'USER': 'postgres',
-        'PASSWORD': '2910122004',  
+        'PASSWORD': 'DB_PASSWORD',  
         'HOST': 'localhost',
         'PORT': '5432',
     }
