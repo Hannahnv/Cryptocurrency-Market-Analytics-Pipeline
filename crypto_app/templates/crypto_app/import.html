@@ -1,0 +1,82 @@
+{% extends 'crypto_app/base.html' %}
+
+{% block title %}Import Cryptocurrency Data{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-6">
+        <div class="card h-100 d-flex flex-column">
+            <div class="card-header bg-primary text-white">
+                <h3 class="card-title mb-0">Import CSV Data</h3>
+            </div>
+            <div class="card-body">
+                <form method="post" enctype="multipart/form-data">
+                    {% csrf_token %}
+                    
+                    <div class="mb-3">
+                        <label for="{{ form.csv_type.id_for_label }}" class="form-label">{{ form.csv_type.label }}</label>
+                        {{ form.csv_type }}
+                        {% if form.csv_type.help_text %}
+                        <div class="form-text">{{ form.csv_type.help_text }}</div>
+                        {% endif %}
+                        {% if form.csv_type.errors %}
+                        <div class="invalid-feedback d-block">{{ form.csv_type.errors }}</div>
+                        {% endif %}
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="{{ form.csv_file.id_for_label }}" class="form-label">{{ form.csv_file.label }}</label>
+                        {{ form.csv_file }}
+                        {% if form.csv_file.help_text %}
+                        <div class="form-text">{{ form.csv_file.help_text }}</div>
+                        {% endif %}
+                        {% if form.csv_file.errors %}
+                        <div class="invalid-feedback d-block">{{ form.csv_file.errors }}</div>
+                        {% endif %}
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">Import Data</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-6">
+        <div class="card h-100 d-flex flex-column">
+            <div class="card-header bg-success text-white">
+                <h3 class="card-title mb-0">Database Statistics</h3>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Data Type</th>
+                                <th>Record Count</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Cryptocurrency Information</td>
+                                <td>{{ stats.coins_count }}</td>
+                            </tr>
+                            <tr>
+                                <td>Historical Data</td>
+                                <td>{{ stats.historical_count }}</td>
+                            </tr>
+                            <tr>
+                                <td>GitHub Information</td>
+                                <td>{{ stats.github_count }}</td>
+                            </tr>
+                            <tr>
+                                <td>Programming Languages</td>
+                                <td>{{ stats.languages_count }}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
