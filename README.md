@@ -13,7 +13,7 @@ This project builds a comprehensive system to collect, manage, and analyze data 
 
 ### 🎯 Main Objectives
 
-- Automated data collection from CoinMarketCap and Github
+- Automated data collection from [CoinMarketCap](https://coinmarketcap.com/) and Github
 - Build a structured database for information storage and management
 - Create visual interfaces to observe trends and correlations in the crypto market
 
@@ -22,7 +22,7 @@ This project builds a comprehensive system to collect, manage, and analyze data 
 ![image](https://github.com/user-attachments/assets/8cc5640e-4e12-4853-8821-2c7e6af05637)
 
 ### Data Flow
-1. **Web Scraping**: Collect data from [CoinMarketCap](https://coinmarketcap.com/) using Selenium + BeautifulSoup
+1. **Web Scraping**: Collect data from CoinMarketCap and Github using Selenium + BeautifulSoup
 2. **Data Processing**: Process and clean data using Python/Pandas
 3. **Storage**: Import CSV to PostgreSQL through the Django web interface
 4. **Visualization**: Create interactive dashboards with Tableau
