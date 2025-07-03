@@ -149,7 +149,7 @@ Here is a preview of the interactive dashboard:
 ![image](https://github.com/user-attachments/assets/df700348-943b-4f0f-a3da-723013e397d1)
 
 
-**🔗 View Live Dashboards**: [Tableau Public](https://public.tableau.com/app/profile/hang.nguyen6427/viz/CryptocurrencyAnalytics)
+**🔗 View Live Dashboards**: [Tableau Public](https://public.tableau.com/app/profile/hang.nguyen6427/viz/CryptocurrencyAnalyticsDashboard-Capstone1/CryptocurrencyTradingMarketOverview)
 
 
 ## 📄 License
