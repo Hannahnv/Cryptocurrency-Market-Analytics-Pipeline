@@ -6,7 +6,7 @@ An end-to-end project from web scraping, data processing, data storage to data v
 
 ## 📊 Project Overview
 
-This project builds a comprehensive system to collect, manage, and analyze data from the **top 100 leading cryptocurrencies**. The system focuses on two main aspects:
+This project builds a comprehensive system to collect, manage, and analyze data from the **top 100 leading cryptocurrencies**. It focuses on analyzing two main aspects:
 
 - **Market data analysis**: prices, trading volumes, market capitalization
 - **Development activity analysis**: data from GitHub repositories and programming languages
